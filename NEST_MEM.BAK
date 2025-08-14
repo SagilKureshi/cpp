@@ -1,0 +1,20 @@
+//Nesting member function
+#include<iostream.h>
+#include<conio.h>
+class data{
+	public : void fun(){
+		cout << "1st member function"<<endl;
+		display();
+	}
+	public : void display(){
+		cout << "2nd member function"<<endl;
+		fun();
+	}
+};
+int main(){
+	clrscr();
+	data s;//s = Object of class
+	s.display();
+	getch();
+	return 0;
+}

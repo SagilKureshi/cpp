@@ -6,8 +6,9 @@ int main(){
     clrscr();
     cout << "Enter Number Of Rows : ";
     cin >> n;
+    cout <<endl;
     for(int s=1;s<=n;s++){
-        for(int k=1;k<s;k++){
+        for(int k=1;k<=s;k++){
             if(k%2==1)
                 cout << k<<" ";
             else

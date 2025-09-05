@@ -10,7 +10,8 @@
 	int m=100000;
 	clrscr();
 	cout<<"with default values"<<money(m)<<endl;
-	cout<<"without default values"<<money(m);
+	cout<<"without default values"<<money(m,1.6);
 	getch();
 	return 0;
+
    }

@@ -1,17 +1,15 @@
-#include<stdio.h>
-#include<conio.h>
-struct s1
-{
-	int num;
-	char c;
+#include <iostream>
+using namespace std;
+
+struct Student {
+    int id;
+    char c;
 };
-int main()
-{
-	struct s1 st;
-	st.num=12;
-	st.c='q';
-	printf("number===%d",st.num);
-	printf("letter===%c",st.c);
-	getch();
-	return 0;
+
+int main() {
+    Student s1;//{1, "Sagil"};
+    s1.id =103;
+    s1.c='S';
+    cout << "Roll No. : " << s1.id << "\n1st name character : " << s1.c;
+    return 0;
 }

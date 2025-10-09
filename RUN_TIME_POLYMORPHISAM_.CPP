@@ -22,4 +22,5 @@ int main(){
 	ptr->show();
 	getch();
 	return 0;
+
 }
